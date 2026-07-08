@@ -1,0 +1,277 @@
+/* =================================
+   DISEÑO RESPONSIVE
+   TECNOLOGÍA MÓVIL CECI
+================================= */
+
+
+/* TABLETS */
+@media(max-width:992px){
+
+
+.hero h1{
+
+    font-size:45px;
+
+}
+
+
+.hero h2{
+
+    font-size:28px;
+
+}
+
+
+.hero p{
+
+    font-size:17px;
+
+}
+
+
+
+.logo-hero{
+
+    margin-top:40px;
+
+}
+
+
+
+.titulo-seccion h2{
+
+    font-size:38px;
+
+}
+
+
+
+.menu{
+
+    background:#121212;
+
+}
+
+
+
+}
+
+
+
+
+/* CELULARES */
+@media(max-width:768px){
+
+
+
+/* HERO */
+
+
+.hero{
+
+    text-align:center;
+
+    padding-top:100px;
+
+}
+
+
+
+.hero h1{
+
+    font-size:36px;
+
+}
+
+
+
+.hero h2{
+
+    font-size:23px;
+
+}
+
+
+
+.hero p{
+
+    font-size:16px;
+
+}
+
+
+
+
+.hero .btn{
+
+    width:100%;
+
+}
+
+
+
+
+
+/* NAVBAR */
+
+
+.navbar-nav{
+
+    text-align:center;
+
+    padding-top:20px;
+
+}
+
+
+
+.nav-link{
+
+    margin:8px 0;
+
+}
+
+
+
+
+/* SERVICIOS */
+
+
+.servicio-card{
+
+    padding:25px;
+
+}
+
+
+
+.titulo-seccion h2{
+
+    font-size:32px;
+
+}
+
+
+
+.titulo-seccion p{
+
+    font-size:16px;
+
+}
+
+
+
+
+/* NOSOTROS */
+
+
+.contenido-nosotros{
+
+    text-align:center;
+
+}
+
+
+
+.contenido-nosotros h2{
+
+    font-size:35px;
+
+}
+
+
+
+
+/* VENTAJAS */
+
+
+.ventaja{
+
+    margin-bottom:20px;
+
+}
+
+
+
+
+
+/* MARCAS */
+
+
+.marca-card{
+
+    height:120px;
+
+}
+
+
+.marca-card img{
+
+    max-width:90px;
+
+}
+
+
+
+
+}
+
+
+
+
+
+/* CELULARES PEQUEÑOS */
+
+@media(max-width:480px){
+
+
+
+.hero h1{
+
+    font-size:30px;
+
+}
+
+
+
+.hero h2{
+
+    font-size:20px;
+
+}
+
+
+
+.logo{
+
+    font-size:22px;
+
+}
+
+
+
+.btn-info{
+
+    font-size:15px;
+
+}
+
+
+
+.servicio-card h3{
+
+    font-size:20px;
+
+}
+
+
+
+.servicio-card p{
+
+    font-size:15px;
+
+}
+
+
+
+}

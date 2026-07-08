@@ -284,3 +284,88 @@ body{
 
 
 
+/* ======================
+       MARCAS
+====================== */
+
+
+.marcas{
+
+    padding:100px 0;
+
+    background:#121212;
+
+}
+
+
+
+
+.marca-card{
+
+    background:#ffffff;
+
+    height:150px;
+
+    border-radius:15px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:25px;
+
+    transition:.3s;
+
+}
+
+
+
+
+.marca-card:hover{
+
+    transform:scale(1.05);
+
+    box-shadow:
+    0 10px 30px
+    rgba(0,168,255,.3);
+
+}
+
+
+
+
+.marca-card img{
+
+    max-width:120px;
+
+    max-height:70px;
+
+    object-fit:contain;
+
+}
+
+
+img{
+
+    max-width:100%;
+
+    height:auto;
+
+}
+
+
+
+.navbar-toggler{
+
+    border:1px solid #00a8ff;
+
+}
+
+
+.navbar-toggler-icon{
+
+    filter:brightness(0) invert(1);
+
+}
