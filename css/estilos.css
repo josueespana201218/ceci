@@ -1,0 +1,286 @@
+/* ======================
+   CONFIGURACIÓN GENERAL
+====================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+
+    font-family:'Segoe UI', sans-serif;
+    background:#121212;
+    color:white;
+
+}
+
+
+
+/* ======================
+       NAVBAR
+====================== */
+
+
+.menu{
+
+    background:rgba(0,0,0,0.85);
+    backdrop-filter:blur(10px);
+
+}
+
+
+.logo{
+
+    font-size:28px;
+    font-weight:bold;
+    color:#00a8ff!important;
+
+}
+
+
+
+.nav-link{
+
+    color:white!important;
+    margin-left:15px;
+
+}
+
+
+
+.nav-link:hover{
+
+    color:#00a8ff!important;
+
+}
+
+
+
+/* ======================
+        HERO
+====================== */
+
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    align-items:center;
+
+    background:
+
+    linear-gradient(
+    rgba(0,0,0,.8),
+    rgba(0,0,0,.8)
+    ),
+
+    url("../img/hero.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+
+}
+
+
+
+.hero h1{
+
+    font-size:60px;
+
+    font-weight:800;
+
+}
+
+
+
+.hero h1 span{
+
+    color:#00a8ff;
+
+}
+
+
+
+.hero h2{
+
+    color:#ccc;
+
+}
+
+
+
+.hero p{
+
+    font-size:20px;
+
+    color:#ddd;
+
+}
+
+
+
+.logo-hero{
+
+    max-width:300px;
+
+}
+
+
+
+/* BOTON */
+
+
+.btn-info{
+
+    background:#00a8ff;
+
+    border:none;
+
+}
+
+
+
+.btn-info:hover{
+
+    background:#0077b6;
+
+}
+
+
+/* ======================
+       SERVICIOS
+====================== */
+
+
+.servicios{
+
+    padding:100px 0;
+
+    background:#1b1b1b;
+
+}
+
+
+
+.titulo-seccion h2{
+
+    font-size:45px;
+
+    font-weight:800;
+
+    color:#00a8ff;
+
+}
+
+
+
+.titulo-seccion p{
+
+    color:#ccc;
+
+    font-size:18px;
+
+    margin-bottom:50px;
+
+}
+
+
+
+
+
+.servicio-card{
+
+    background:#252525;
+
+    border:none;
+
+    padding:35px;
+
+    text-align:center;
+
+    height:100%;
+
+    border-radius:15px;
+
+    transition:.4s;
+
+    color:white;
+
+}
+
+
+
+
+.servicio-card:hover{
+
+
+    transform:translateY(-10px);
+
+    box-shadow:
+    0 10px 30px
+    rgba(0,168,255,.3);
+
+}
+
+
+
+
+.icono{
+
+
+    width:80px;
+
+    height:80px;
+
+    margin:auto;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+
+    background:#00a8ff;
+
+    border-radius:50%;
+
+
+    font-size:40px;
+
+    color:white;
+
+    margin-bottom:25px;
+
+
+}
+
+
+
+.servicio-card h3{
+
+    color:#00a8ff;
+
+    font-size:24px;
+
+}
+
+
+
+.servicio-card p{
+
+    color:#ddd;
+
+    line-height:1.6;
+
+}
+
+
+
